@@ -46,14 +46,16 @@ describe('Suite manipulação de herois', function() {
             nome: 'Batman',
             poder: 'Dinheiro'
         }
-
+        console.log('expected',expected)
+        console.log('DEFAULT_ITEM_ATUALIZAR',DEFAULT_ITEM_ATUALIZAR)
+        return false
         const novoDado = { 
             nome: 'Batman',
             poder: 'Dinheiro'
         }
-
         await database.atualizar(DEFAULT_ITEM_ATUALIZAR.id, novoDado)
         const [resultado] = await database.listar(DEFAULT_ITEM_ATUALIZAR.id)
+       
         deepEqual(resultado, expected)
     })
 }

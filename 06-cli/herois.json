@@ -1,22 +1,12 @@
 [
     {
-        "id": 1,
-        "nome": "Flash",
-        "poder": "Speed"
+        "id": 1581985938401,
+        "nome": "Homem-aranha",
+        "poder": "teia"
     },
     {
-        "id": 2,
-        "nome": "Lanterna Verde",
-        "poder": "Energia do Anel"
-    },
-    {
-        "id": 1,
-        "nome": "Flash",
-        "poder": "Speed"
-    },
-    {
-        "id": 2,
-        "nome": "Batman",
-        "poder": "Dinheiro"
+        "id": 1581986042850,
+        "nome": "Chapolin",
+        "poder": "Marreta Bionica"
     }
 ]
