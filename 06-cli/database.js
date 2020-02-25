@@ -13,7 +13,7 @@ const writeFileAsync = promisify(writeFile)
 
 class Database {
     constructor() {
-        this.NOME_ARQUIVO = 'herois.json'
+        this.NOME_ARQUIVO = 'vilao.json'
     }
     async obterDadosArquivo(params) {
         const arquivo = await readFileAsync(this.NOME_ARQUIVO, 'utf8')
@@ -73,6 +73,7 @@ class Database {
             ...atual,
             ...modificacoes
         }
+
         //remove da lista
         dados.splice(indice, 1)
 

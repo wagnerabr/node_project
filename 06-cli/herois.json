@@ -1,12 +1,27 @@
 [
     {
-        "id": 1581985938401,
-        "nome": "Homem-aranha",
-        "poder": "teia"
-    },
-    {
         "id": 1581986042850,
         "nome": "Chapolin",
         "poder": "Marreta Bionica"
+    },
+    {
+        "id": 1581985938401,
+        "nome": "He-man",
+        "poder": "Força"
+    },
+    {
+        "id": 1582582407244,
+        "nome": "Batman",
+        "poder": "Inteligência"
+    },
+    {
+        "id": 1582582491091,
+        "nome": "Aquaman",
+        "poder": "Mar"
+    },
+    {
+        "id": 1582582512630,
+        "nome": "Superman",
+        "poder": "Força"
     }
 ]
